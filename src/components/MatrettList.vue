@@ -15,7 +15,7 @@
 
 <script>
 import axios from 'axios'
-import MatrettItem from '@components/MatrettItem'
+import MatrettItem from '@/components/MatrettItem'
 export default {
     name:"MatrettList",
     data(){

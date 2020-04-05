@@ -16,7 +16,7 @@ export default {
     name: "MatrettForm",
     data(){
         return{
-            newMatrett: {name: "", imageName: ""},
+            newMatrett: {name: "", imgName: ""},
             file: null
         }
     },
