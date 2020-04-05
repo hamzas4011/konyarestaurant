@@ -1,11 +1,12 @@
 <template>
   <v-app>
     <div id="app">
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <router-link to="/all-matretter">All matretter</router-link> |
-        <v-btn class="success" to="/add-matretter">Add matrett</v-btn>
+      <div id="map-deep-merge">
+        <v-btn class="secondary" to="/">Home</v-btn> |
+        <v-btn class="secondary" to="/about">About</v-btn> |
+        <v-btn class="secondary" to="/all-matretter">All matretter</v-btn> |
+        <v-btn class="secondary" to="/add-matretter">Add matrett</v-btn>
+
       </div>
       <v-content>
         <v-container>
