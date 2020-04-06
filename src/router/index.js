@@ -35,6 +35,14 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "AddMatretter" */ '../views/AddMatretter.vue')
   },
+  {
+    path: '/delete-matretter',
+    name: 'DeleteMatretter',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "delete-matretter" */ '../views/DeleteMatretter.vue')
+  }
 ]
 
 const router = new VueRouter({
