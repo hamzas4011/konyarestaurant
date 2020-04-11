@@ -2,9 +2,11 @@
     <div>
         <v-row>
             <v-col cols="12" sm="6" lg="4" class="mx-auto">
+             <v-text-field v-model.number="newMatrett.id" label="Id"></v-text-field>
             <v-text-field v-model="newMatrett.name" label="Navn"></v-text-field>
-            <v-text-field v-model="newMatrett.description" label="Description"></v-text-field>
             <v-file-input v-model="file" show-size></v-file-input>
+            <v-text-field v-model="newMatrett.description" label="Description"></v-text-field>
+            <v-text-field v-model.number="newMatrett.price" label="Price"></v-text-field>
             <v-btn @click="postMatrett">Lagre nytt Matrett</v-btn>
             </v-col>
         </v-row>
@@ -17,7 +19,7 @@ export default {
     name: "MatrettForm",
     data(){
         return{
-            newMatrett: {name: "", imgName: "", description: ""},
+            newMatrett: {id:"", name: "", imgName: "", description: "", price: ""},
             file: null
         }
     },

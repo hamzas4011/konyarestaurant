@@ -3,7 +3,7 @@
        <v-row>
             <v-col cols="12" sm="6" lg="4" class="mx-auto">
             <h1>Slett matretter</h1>
-            <label>ID</label>
+            <label>Id</label>
             <v-text-field v-model="deleteId" type="Navn"></v-text-field>
             <v-btn @click="deleteMatretter">Slett Matrett</v-btn>
             <p> {{ deleteStatus }}</p>
