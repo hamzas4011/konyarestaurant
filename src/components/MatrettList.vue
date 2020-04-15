@@ -21,7 +21,7 @@ export default {
     data(){
         return{
             matretts:[{
-                id: 999, name: "TESTMAT", imgName: "matrett.jpg"
+                id: 999, name: "TESTMAT", imgName: "fido.jpg"
             }]
         }
     },
