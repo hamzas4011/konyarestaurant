@@ -4,7 +4,7 @@
          <v-col cols="12" sm="6" lg="4" class="mx-auto">
         <h1>Rediger matretter</h1>
         <label>Id</label>
-         <v-text-field v-model="editId" type="text"></v-text-field>
+         <v-text-field v-model.number="editId" type="number"></v-text-field>
          <v-btn @click="getMatretter">Hent matretter</v-btn>
         <hr>
         <label>Id</label>
