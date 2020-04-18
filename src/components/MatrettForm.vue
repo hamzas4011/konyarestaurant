@@ -37,7 +37,7 @@ export default {
 
                 axios({
                     method: "POST",
-                    url: "https://localhost:5001/konyarestaurantadmin/UploadImage",
+                    url: "https://localhost:5001/konyarestaurantadmin/Uploadimage",
                     data: data,
                     config: { headers: {'Content-Type' : 'multipart/form-data'} }
                 })
