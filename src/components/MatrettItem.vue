@@ -5,6 +5,7 @@
          height="200px" >
         </v-img>
       <div class=blue>
+    <v-rating v-model="rating"></v-rating>
     <v-card-tittle>{{ id}}.{{name}}</v-card-tittle>
     <hr>
    <v-card-text>{{ description}}</v-card-text>
