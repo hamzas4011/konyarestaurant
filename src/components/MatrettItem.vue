@@ -5,13 +5,18 @@
          height="200px" >
         </v-img>
       <div class=blue>
+    <v-rating v-model="rating"></v-rating>
     <v-card-tittle>{{ id}}.{{name}}</v-card-tittle>
     <hr>
    <v-card-text>{{ description}}</v-card-text>
    <hr>
-   <v-card-subtitle.font-weight-black>{{ price}}</v-card-subtitle.font-weight-black>
+   <v-card-subtitle.font-weight-black>{{ price}}</v-card-subtitle.font-weight-black> 
+   <hr>
+   <v-btn depressed small class="green white--text">
+    <span>Bestill</span>
+    <v-icon right small color="black lighten-1">mdi-cart-plus</v-icon>
+   </v-btn>
       </div>  
-
     </v-card>
 </template>
 

@@ -8,7 +8,8 @@
         <v-btn class="secondary" to="/add-matretter">Add matrett</v-btn> |
         <v-btn class="secondary" to="/delete-matretter">Slett matretter</v-btn> |
         <v-btn class="secondary" to="/edit-matretter">Rediger matretter</v-btn> |
-        <v-btn class="secondary" to="/search-matretter">Søk matretter</v-btn> 
+        <v-btn class="secondary" to="/search-matretter">Søk matretter</v-btn>  |
+        <v-btn class="secondary" to="/Basket">Basket matretter</v-btn> 
         
       </div>
       <v-content>
