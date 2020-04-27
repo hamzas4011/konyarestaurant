@@ -25,8 +25,9 @@ export default {
             }]
         }
     },
+    //endre til admin
     created(){
-        axios.get("https://localhost:5001/konyarestaurant")
+        axios.get("https://localhost:5001/konyarestaurantadmin")
         .then( result => {
             this.matretts = result.data;
 

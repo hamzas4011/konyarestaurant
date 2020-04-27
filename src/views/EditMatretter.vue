@@ -6,7 +6,7 @@
         <label>Id</label>
          <v-text-field v-model.number="editId" type="number"></v-text-field>
          <v-btn @click="getMatretter">Hent matretter</v-btn>
-        <hr>
+        <br>
         <label>Id</label>
          <v-text-field v-model.number="editMatretter.id"  type="number"></v-text-field>
         <label>Name</label>
@@ -30,19 +30,22 @@ export default {
     data(){
         return{
             editId: "",
-            editMatretter: {}
+            editMatretter: {id:"", name: "", imgName: "", description: "", price: ""},
+          
         }
     },
+    //endret til admin
     methods: {
         getMatretter(){
-            let webAPIUrl = `https://localhost:5001/konyarestaurant/${this.editId}`;
+            let webAPIUrl = `https://localhost:5001/konyarestaurantadmin/getId/${this.editId}`;
             axios.get( webAPIUrl )
             .then( result => {
                 this.editMatretter = result.data;
             })
         },
+        //endret til admin
         putMatretter(){
-            let webAPIUrl = "https://localhost:5001/konyarestaurant";
+            let webAPIUrl = "https://localhost:5001/konyarestaurantadmin";
             axios.put ( webAPIUrl, this.editMatretter
              )
          

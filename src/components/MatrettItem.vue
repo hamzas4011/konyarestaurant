@@ -6,7 +6,7 @@
         </v-img>
       <div class=blue>
     <v-rating v-model="rating"></v-rating>
-    <v-card-tittle>{{ id}}.{{name}}</v-card-tittle>
+    <v-card-title>{{ id}}.{{name}}</v-card-title>
     <hr>
    <v-card-text>{{ description}}</v-card-text>
    <hr>

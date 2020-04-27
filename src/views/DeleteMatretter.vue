@@ -25,8 +25,9 @@ export default {
         }
     },
     methods: {
+        //endret til admin
         deleteMatretter(){
-            let webAPIUrl = `https://localhost:5001/konyarestaurant/${this.deleteId}`;
+            let webAPIUrl = `https://localhost:5001/konyarestaurantadmin/${this.deleteId}`;
 
             axios.delete( webAPIUrl )
             .then(
