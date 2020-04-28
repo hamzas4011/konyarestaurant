@@ -8,7 +8,8 @@
         {{ supplier.name }}
       </li>
     </ul>
-  </div>
+  
+ </div>
 </template>
 
 <script>
@@ -23,3 +24,5 @@ export default {
   
 }
 </script>
+
+

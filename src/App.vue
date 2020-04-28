@@ -11,7 +11,6 @@
         <v-btn class="secondary" to="/edit-matretter">Rediger matretter</v-btn> |
         <v-btn class="secondary" to="/Basket">Basket matretter</v-btn> 
         
-  
       </div>
       <v-content>
         <v-container>
@@ -19,8 +18,21 @@
         </v-container>
       </v-content>
     </div>
+    <appFooter></appFooter>
   </v-app>
+  
 </template>
+
+
+<script>
+import Footer from './footer/Footer.vue'
+export default {
+  components:{
+    appFooter: Footer
+  }
+  
+}
+</script>
 
 <style lang="scss">
 #app {
@@ -29,7 +41,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
+
 
 #nav {
   padding: 30px;

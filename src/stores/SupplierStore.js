@@ -1,5 +1,4 @@
 //kan importere axios
-
 const SupplierStore = {
 
     //store state som inneholder sponsors som følgende komponenter trenger... og derfor fornuftig å ha store
