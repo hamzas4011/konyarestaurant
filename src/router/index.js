@@ -69,9 +69,58 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "search-matretter" */ '../views/SearchMatretter.vue')
-  }
+  },
 
-  ,
+  {
+    path: '/all-drikke',
+    name: 'AllDrikke',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "AllDrikke" */ '../views/AllDrikke.vue')
+  },
+
+  {
+    path: '/all-drikke-admin',
+    name: 'AllDrikkeAdmin',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "AllDrikkeAdmin" */ '../views/AllDrikkeAdmin.vue')
+  },
+  {
+    path: '/all-dessert',
+    name: 'AllDessert',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "AllDessert" */ '../views/AllDessert.vue')
+  },
+
+  {
+    path: '/all-dessert-admin',
+    name: 'AllDessertAdmin',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "AllDessertAdmin" */ '../views/AllDessertAdmin.vue')
+  },
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     path: '/basket',
     name: 'Basket',
