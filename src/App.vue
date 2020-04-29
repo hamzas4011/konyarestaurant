@@ -5,6 +5,7 @@
         <v-btn class="green lighten-2" to="/">Home</v-btn> |
         <v-btn class="green lighten-2" to="/about">About</v-btn> |
         <v-btn class="green lighten-2" to="/all-matretter">All matretter</v-btn> |
+        <v-btn class="teal lighten-2" to="/all-matretter-admin">All matretter Admin</v-btn> |
         <v-btn class="teal lighten-2" to="/search-matretter">Søk matretter</v-btn>  |
         <v-btn class="teal lighten-2" to="/add-matretter">Add matrett</v-btn> |
         <v-btn class="teal lighten-2" to="/delete-matretter">Slett matretter</v-btn> |

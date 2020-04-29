@@ -28,6 +28,15 @@ const routes = [
   },
 
   {
+    path: '/all-matretter-admin',
+    name: 'AllMatretterAdmin',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "AllMatretterAdmin" */ '../views/AllMatretterAdmin.vue')
+  },
+
+  {
     path: '/add-matretter',
     name: 'AddMatretter',
     // route level code-splitting
