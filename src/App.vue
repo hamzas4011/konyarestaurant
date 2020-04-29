@@ -2,14 +2,15 @@
   <v-app>
     <div id="app">
       <div id="map-deep-merge">
-        <v-btn class="secondary" to="/">Home</v-btn> |
-        <v-btn class="secondary" to="/about">About</v-btn> |
-        <v-btn class="secondary" to="/all-matretter">All matretter</v-btn> |
-        <v-btn class="secondary" to="/search-matretter">Søk matretter</v-btn>  |
-        <v-btn class="secondary" to="/add-matretter">Add matrett</v-btn> |
-        <v-btn class="secondary" to="/delete-matretter">Slett matretter</v-btn> |
-        <v-btn class="secondary" to="/edit-matretter">Rediger matretter</v-btn> |
-        <v-btn class="secondary" to="/Basket">Basket matretter</v-btn> 
+        <v-btn class="green lighten-2" to="/">Home</v-btn> |
+        <v-btn class="green lighten-2" to="/about">About</v-btn> |
+        <v-btn class="green lighten-2" to="/all-matretter">All matretter</v-btn> |
+        <v-btn class="teal lighten-2" to="/search-matretter">Søk matretter</v-btn>  |
+        <v-btn class="teal lighten-2" to="/add-matretter">Add matrett</v-btn> |
+        <v-btn class="teal lighten-2" to="/delete-matretter">Slett matretter</v-btn> |
+        <v-btn class="teal lighten-2" to="/edit-matretter">Rediger matretter</v-btn> |
+        <v-btn class="teal lighten-2" to="/basket">Basket matretter</v-btn> |
+        <v-btn class="teal lighten-2" to="/employee-store">Ansatt</v-btn> 
         
       </div>
       <v-content>

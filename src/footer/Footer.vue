@@ -1,8 +1,9 @@
 <template>
- <div class="layout">
-    <v-footer absolute="" color="teal darken-1" padless>
-    <v-row justify="center" no-gutters >
-      
+ <div class="layout" >
+    <v-footer absolute inset app height="100" width="auto" class="py-12" color="teal darken-1" padless>
+
+  <v-row justify="center" no-gutters >
+
       <v-btn
         v-for="link in links"
         :key="link"
@@ -13,13 +14,8 @@
       >
       {{ link }}
       </v-btn>
-      <v-col
-        class="teal darken-2 py-4 text-center white--text"
-        cols="12"
-      >
-        {{ new Date().getFullYear() }} — <strong>Konya Restaurant</strong>
+    
 
- </v-col>
  </v-row>
  </v-footer>
  </div>
@@ -38,4 +34,3 @@
     }),
   }
   </script>
-
