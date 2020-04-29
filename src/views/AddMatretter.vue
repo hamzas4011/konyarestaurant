@@ -6,6 +6,7 @@
 </template>
 
 <script>
+//Importerer Matrettform from components
 import MatrettForm from '@/components/MatrettForm'
 export default {
     name: "AddMatrett",

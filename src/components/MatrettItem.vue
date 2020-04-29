@@ -1,4 +1,7 @@
 <template>
+
+<!-- V-card som viser alle matretter -->
+
     <v-card>
         <v-img
          :src="`https://localhost:5001/images/${imgName}`"

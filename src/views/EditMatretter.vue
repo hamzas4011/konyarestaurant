@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- Radene i editmatretter -->
         <v-row>
          <v-col cols="12" sm="6" lg="4" class="mx-auto">
         <h1>Rediger matretter</h1>
@@ -24,6 +25,7 @@
 </template>
 
 <script>
+//importerer axios
 import axios from 'axios'
 export default {
     name: "EditMatretter",
@@ -34,7 +36,7 @@ export default {
           
         }
     },
-    //endret til admin
+    //Henter matretter fra databasen
     methods: {
         getMatretter(){
             let webAPIUrl = `https://localhost:5001/konyarestaurantadmin/getId/${this.editId}`;
@@ -43,7 +45,7 @@ export default {
                 this.editMatretter = result.data;
             })
         },
-        //endret til admin
+        //Legger til matrett
         putMatretter(){
             let webAPIUrl = "https://localhost:5001/konyarestaurantadmin";
             axios.put ( webAPIUrl, this.editMatretter

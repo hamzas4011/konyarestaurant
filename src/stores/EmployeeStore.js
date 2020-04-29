@@ -1,7 +1,7 @@
-//kan importere axios
 const EmployeeStore = {
 
-    //store state som inneholder sponsors som følgende komponenter trenger... og derfor fornuftig å ha store
+    //store state som inneholder employee som følgende komponenter trenger... og derfor fornuftig å ha store
+    //Inneholder informasjon om alle ansatte som jobber i Konya Restautant.
     state: {
         employee: [
             { id: 201, name: "Ola Skjelvik", tlf:"90002001", email:"ola@konya.no", adress:"osloveien 91" },

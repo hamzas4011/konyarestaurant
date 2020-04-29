@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <!-- Alle de forksjellige knappene som ligger på vue siden.-->
     <div id="app">
       <div id="map-deep-merge">
         <v-btn class="green lighten-2" to="/">Home</v-btn> |

@@ -1,4 +1,6 @@
 <template>
+
+<!-- V-table som viser matretter med id, navn beskrivelse og pris for admin. -->
     <v-simple-table dark  fixed-header height="180px" >
          <template v-slot:default>
             <thead>

@@ -1,11 +1,12 @@
 <template>
     <div>
         <h1>Alle Matretter Admin</h1>
-        <MatrettListAdmin />
+        <MatrettListAdmin/>
     </div>
 </template>
 
 <script>
+//Importerer MatrettListAdmin fra components
 import MatrettListAdmin from '@/components/MatrettListAdmin'
 export default {
     name: "AllMatretterAdmin",
