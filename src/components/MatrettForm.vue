@@ -14,6 +14,7 @@
 </template>
 
 <script>
+//importerer axios
 import axios from 'axios'
 export default {
     name: "MatrettForm",
@@ -23,6 +24,8 @@ export default {
             file: null
         }
     },
+
+    //metode for å legge til ny matrett i databasen.
     methods:{
         postMatrett(){
             this.newMatrett.imgName = this.file.name;

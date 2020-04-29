@@ -5,6 +5,7 @@
     <h1>Velkommen til Ansatt siden</h1>
     <img src="https://localhost:5001/images/employee.png">
   
+  <!-- Forskjellige rader-->
   <div>
          <v-text-field v-model.number="editEmployee" label="Søk ansatt" type="number"></v-text-field>
          <v-btn @click="getEmployee">Hent ansatt</v-btn>
@@ -38,7 +39,10 @@
 </template>
 
 <script>
+//Importerer axios
 import axios from 'axios'
+
+//Importerer EmployeeStore fra stores
 import EmployeeStore from '@/stores/EmployeeStore.js'
 
 export default {
@@ -48,7 +52,9 @@ export default {
       employee: EmployeeStore.getEmployee()
     }
   },
+
   methods: {
+    //Henter ansatt
         getEmployee(){
             let webAPIUrl = `https://localhost:5001/konyarestaurantadmin/getId/${this.editId}`;
             axios.get( webAPIUrl )
@@ -56,13 +62,15 @@ export default {
                 this.editEmployee = result.data;
             })
         },
-        
+        //Legger til ansatt 
         putEmployee(){
             let webAPIUrl = "https://localhost:5001/konyarestaurantadmin";
             axios.put ( webAPIUrl, this.editEmployee
              )
          
         },
+
+        //Sletter ansatt
         deleteEmployee(){
             let webAPIUrl = `https://localhost:5001/konyarestaurantadmin/${this.deleteId}`;
 
@@ -73,6 +81,8 @@ export default {
                 }
             )
         }, 
+
+        // Legger til bilde
          postMatrett(){
             this.newEmployee.image = this.file.name;
 

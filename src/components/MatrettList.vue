@@ -14,7 +14,11 @@
 </template>
 
 <script>
+
+//Importerer axios fra axios
 import axios from 'axios'
+
+//Importerer MatrettItem fra components
 import MatrettItem from '@/components/MatrettItem'
 export default {
     name:"MatrettList",

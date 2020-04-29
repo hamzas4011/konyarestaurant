@@ -13,7 +13,11 @@
 </template>
 
 <script>
+
+//Importerer axios fra axios
 import axios from 'axios'
+
+//Importerer MatrettItemAdmin fra components
 import MatrettItemAdmin from '@/components/MatrettItemAdmin'
 export default {
     name:"MatrettListAdmin",
@@ -24,7 +28,7 @@ export default {
             }]
         }
     },
-    //endre til admin
+    
     created(){
         axios.get("https://localhost:5001/konyarestaurantadmin")
         .then( result => {
@@ -32,6 +36,8 @@ export default {
 
         })
     },
+
+    //components MatrettItemAdmin
     components:{
         MatrettItemAdmin
     }

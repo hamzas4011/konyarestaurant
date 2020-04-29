@@ -1,9 +1,9 @@
 <template>
   <v-app>
+    <!-- Alle de forksjellige knappene som ligger på vue siden.-->
     <div id="app">
       <div id="map-deep-merge">
-        <v-btn class="green lighten-2" to="/">Home</v-btn> |
-        <v-btn class="green lighten-2" to="/about">About</v-btn> |
+        <v-btn class="green lighten-2" to="/home">Hjem</v-btn> |
         <v-btn class="green lighten-2" to="/all-matretter">All matretter</v-btn> |
         <v-btn class="teal lighten-2" to="/all-matretter-admin">All matretter Admin</v-btn> |
         <v-btn class="teal lighten-2" to="/search-matretter">Søk matretter</v-btn>  |

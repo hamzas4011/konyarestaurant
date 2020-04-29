@@ -6,6 +6,7 @@
 </template>
 
 <script>
+//Importerer MatrettList fra Components
 import MatrettList from '@/components/MatrettList'
 export default {
     name: "AllMatretter",
