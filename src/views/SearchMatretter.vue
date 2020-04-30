@@ -3,7 +3,7 @@
        <v-row>
             <v-col cols="12" sm="6" lg="4" class="mx-auto">
             <h1>Søk på matretten</h1>
-            <v-text-field v-model="searchTerm" type="text"></v-text-field>
+            <v-text-field v-model="searchTerm" type="text" label="Skriv navnet på matretten"></v-text-field>
             <v-btn @click="searchByName">Søk matrett</v-btn>
         <article v-for="matrett in matrettSearch" :key="matrett.id">
       <h1>{{matrett.imgName}}</h1>

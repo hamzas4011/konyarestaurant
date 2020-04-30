@@ -1,4 +1,11 @@
 
+
+<!---
+    Alle iteme filene som har blitt laget, har en kobling til 
+    item. Alt dette er for å få opp hele databasen til websiden, hente det.
+--->
+
+
 <template>
     <v-card>
         <v-img

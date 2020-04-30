@@ -7,13 +7,23 @@ Vue.use(VueRouter)
 // knappene som ligger på alle vue sidene.
 const routes = [
   {
-    path: '/home',
+    path: '/',
     name: 'Home',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue')
   },
+
+  {
+    path: '/om-oss',
+    name: 'OmOss',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "OmOss" */ '../views/OmOss.vue')
+  },
+  
   {
     path: '/all-matretter',
     name: 'AllMatretter',
@@ -101,31 +111,6 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "AllDessertAdmin" */ '../views/AllDessertAdmin.vue')
   },
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  {
-    path: '/basket',
-    name: 'Basket',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "basket" */ '../views/Basket.vue')
-  }
-  ,
   {
     path: '/employee-store',
     name: 'EmployeeStore',

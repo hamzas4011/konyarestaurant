@@ -4,10 +4,10 @@
     <div id="app">
       <div id="map-deep-merge">
         <v-btn class="green lighten-2" to="/">Home</v-btn> |
-        <v-btn class="green lighten-2" to="/about">About</v-btn> |
+        <v-btn class="green lighten-2" to="/om-oss">Om oss</v-btn> |
         <v-btn class="green lighten-2" to="/all-matretter">Alle matretter</v-btn> |
         <v-btn class="green lighten-2" to="/all-drikke">Alle drikker</v-btn> |
-        <v-btn class="green lighten-2" to="/all-dessert">Alle dessert</v-btn> |
+        <v-btn class="green lighten-2" to="/all-dessert">Alle desserter</v-btn> |
         <v-btn class="teal lighten-2" to="/all-matretter-admin">Alle matretter admin</v-btn> |
         <v-btn class="teal lighten-2" to="/all-drikke-admin">Alle drikker admin</v-btn> |
         <v-btn class="teal lighten-2" to="/all-dessert-admin">Alle desserter admin</v-btn> |
@@ -15,7 +15,6 @@
         <v-btn class="teal lighten-2" to="/add-matretter">Legg til matrett</v-btn> |
         <v-btn class="teal lighten-2" to="/delete-matretter">Slett matrett</v-btn> |
         <v-btn class="teal lighten-2" to="/edit-matretter">Rediger matrett</v-btn> |
-        <v-btn class="teal lighten-2" to="/basket">Basket matretter</v-btn> |
         <v-btn class="teal lighten-2" to="/employee-store">Ansatt</v-btn> 
         
       </div>
