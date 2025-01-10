@@ -7,7 +7,7 @@
 ---
 
 ## 🌟 About the Project  
-This frontend project was created for the course **Webutvikling 2** and focused on building a website for a fictional Turkish restaurant, **Konya Restaurant**.  
+This frontend project was created for the course **Webutvikling 2** in collaboration with my classmate, **Fazal**. The project focused on building a website for a fictional Turkish restaurant, **Konya Restaurant**.  
 
 ### Key Features:  
 - 📜 **Menu Display:** Showcase of the restaurant's menu items.  
@@ -23,7 +23,3 @@ This frontend project was created for the course **Webutvikling 2** and focused 
 - **Backend:** C# with CRUD operations (in a separate folder/repository)  
 
 This project showcases the integration of modern frontend frameworks with a robust backend API, offering a dynamic and user-friendly experience.  
-
-
-
-
