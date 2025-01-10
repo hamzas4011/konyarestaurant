@@ -1,4 +1,4 @@
-# Frontend Project - Konya Restaurant 🍽️
+# Frontend Project - Konya Restaurant
 
 **Developed as part of my bachelor's degree in**  
 🎓 **Information Technology** (Specialization: E-business)  
